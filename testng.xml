@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ApiTestSuite" >
+    <listeners>
+        <listener class-name="ge.spaceint.listeners.SuitListener" />
+        <listener class-name="ge.spaceint.listeners.TestListener" />
+        <listener class-name="ge.spaceint.listeners.ReportListener" />
+    </listeners>
+
+    <suite-files>
+        <suite-file path="suites/reqresTestSuite.xml"/>
+    </suite-files>
+</suite>
